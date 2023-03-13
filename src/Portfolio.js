@@ -15,6 +15,16 @@ import sass from "./icons/sass.png";
 import git from "./icons/git.png";
 import vscode from "./icons/vscode.png";
 import placeholder from "./placeholder.png";
+import calulator from "./projects/calulator.png";
+import crypto from "./projects/crypto.png";
+import form from "./projects/form.png";
+import guessAge from "./projects/guessAge.png";
+import Hangman from "./projects/Hangman.png";
+import neomorphism from "./projects/neomorphism.png";
+import shop from "./projects/shop.png";
+import Store from "./projects/Store.png";
+import TodoList from "./projects/TodoList.png";
+import zarrinpal from "./projects/zarrinpal.png";
 
 const Portfolio = () => {
   const [state, setState] = useState({
@@ -76,11 +86,11 @@ const Portfolio = () => {
           <section id="about-me">
             <h4 id="aboutMe">About Me</h4>
             <p>
-              I'm an IT engineering graduated currently living in Meshgin Shar,
-              Iran. My main interest is developing front-end of websites and web
-              applications. Nowadays, I start using Javascript frameworks such
-              as React for client side developing of web apps. I am always eager
-              to experience new opportunities and come up with new ideas.
+              I'm an software engineering graduated. My main interest is
+              developing front-end of websites and web applications. Nowadays, I
+              start using Javascript frameworks such as React for client side
+              developing of web apps. I am always eager to experience new
+              opportunities and come up with new ideas.
             </p>
             <div className="contact">
               <div>
@@ -154,19 +164,9 @@ const Portfolio = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="linkedin.com/in/sirusvalioghli"
-              >
-                <li className="stackoverflow"></li>
-              </a>
-              <a
-                target="_blank"
-                rel="noreferrer"
                 href="https://telegram.me/sirous76"
               >
                 <li className="telegram"></li>
-              </a>
-              <a target="_blank" rel="noreferrer" href="t.me/sirous76">
-                <li className="twitter"></li>
               </a>
               <a
                 target="_blank"
@@ -248,9 +248,10 @@ const Portfolio = () => {
             </ul>
             <h5 className="mt-64">Other Skills</h5>
             <ul className="other-skills">
-              <li>Redux</li>
-              <li>Saas</li>
+              <li>Tailwind</li>
+              <li>Sass</li>
               <li>Responsive Web Design</li>
+              <li>PWA</li>
             </ul>
           </section>
           <br />
@@ -258,11 +259,14 @@ const Portfolio = () => {
             <h4 id="myProjects">My Projects</h4>
             <div className="projects">
               <div className="project">
-                <img alt="" src={placeholder} />
-                <div className="title">Project Tilte</div>
+                <img alt="" src={Store} />
+                <div className="title">Shop Store</div>
                 <p className="description">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                  A SPA store built with React that takes an array of products
+                  from the API and can add or remove products to the cart. This
+                  app includes product details page and shopping cart. Modular
+                  and component-base (reusable & Functional components) - Use
+                  Context for state management
                 </p>
                 <div className="tech">
                   <span> Tech Used:</span>
@@ -273,23 +277,39 @@ const Portfolio = () => {
                     <li>
                       <img alt="" src={css} />
                     </li>
+                    <li>
+                      <img alt="" src={react} />
+                    </li>
                   </ul>
                 </div>
                 <div className="buttons">
-                  <a className="button ghost" href="google.com">
+                  <a
+                    className="button ghost"
+                    href="https://sirusvalioghli.github.io/Store/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="fa-regular fa-eye"></i>Demo
                   </a>
-                  <a href="google.com" className="button outline dark">
+                  <a
+                    href="https://github.com/SirusValioghli/Store"
+                    className="button outline dark"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="fa-brands fa-github"></i>View Code
                   </a>
                 </div>
               </div>
               <div className="project">
-                <img alt="" src={placeholder} />
-                <div className="title">Project Tilte</div>
+                <img alt="" src={Hangman} />
+                <div className="title">Hangman</div>
                 <p className="description">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                  Hangman is a word game in which the player is trying to guess
+                  a secret word. The player guesses letters, one at a time, and
+                  is told where each such letter appears in the secret word. If
+                  a guessed letter does not appear at all, it is considered a
+                  mistake.
                 </p>
                 <div className="tech">
                   <span> Tech Used:</span>
@@ -306,10 +326,20 @@ const Portfolio = () => {
                   </ul>
                 </div>
                 <div className="buttons">
-                  <a className="button ghost" href="google.com">
+                  <a
+                    className="button ghost"
+                    href="https://sirusvalioghli.github.io/Hangman/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="fa-regular fa-eye"></i>Demo
                   </a>
-                  <a href="google.com" className="button outline dark">
+                  <a
+                    href="https://github.com/SirusValioghli/Hangman"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="button outline dark"
+                  >
                     <i className="fa-brands fa-github"></i>View Code
                   </a>
                 </div>
