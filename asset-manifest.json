@@ -1,23 +1,33 @@
 {
   "files": {
     "main.css": "./static/css/main.080b9ac1.css",
-    "main.js": "./static/js/main.428410ee.js",
+    "main.js": "./static/js/main.6bc7a624.js",
+    "static/media/TodoList.png": "./static/media/TodoList.6fd41d34aff7054137d7.png",
+    "static/media/shop.png": "./static/media/shop.7eee027b28c09ac4fc8f.png",
+    "static/media/Store.png": "./static/media/Store.a587943491d828eee63a.png",
     "static/media/fa-solid-900.ttf": "./static/media/fa-solid-900.e615bbcb258550973c16.ttf",
+    "static/media/zarrinpal.png": "./static/media/zarrinpal.40a90c2642b75c26285a.png",
     "static/media/fa-brands-400.ttf": "./static/media/fa-brands-400.b823fc0dbb5a5f0c21bb.ttf",
     "static/media/fa-solid-900.woff2": "./static/media/fa-solid-900.59edf72a325ac2048d60.woff2",
     "static/media/fa-brands-400.woff2": "./static/media/fa-brands-400.ebb7a127d2d8ee6f1832.woff2",
     "static/media/avatar.jpg": "./static/media/avatar.e21228e300287eecf6fb.jpg",
+    "static/media/neomorphism.png": "./static/media/neomorphism.5951f2dba7d92e13227d.png",
     "static/media/fa-regular-400.ttf": "./static/media/fa-regular-400.0d03b1bbd1d62c1e1284.ttf",
     "static/media/placeholder.png": "./static/media/placeholder.f808d086b75852c7ea53.png",
+    "static/media/crypto.png": "./static/media/crypto.d5b35302a95ae4a84284.png",
+    "static/media/Hangman.png": "./static/media/Hangman.9074d94870b511c121e6.png",
+    "static/media/calculator.png": "./static/media/calculator.389a1563a10ad0c241f1.png",
+    "static/media/form.png": "./static/media/form.df6b251a5a4ab675c6b9.png",
     "static/media/fa-regular-400.woff2": "./static/media/fa-regular-400.0caf4c6cf244a90efcc5.woff2",
+    "static/media/guessAge.png": "./static/media/guessAge.f57fc6dd4363b75d82f7.png",
     "static/media/fa-v4compatibility.ttf": "./static/media/fa-v4compatibility.4baccb548138840fa33a.ttf",
     "static/media/fa-v4compatibility.woff2": "./static/media/fa-v4compatibility.afac89562a5301459069.woff2",
     "index.html": "./index.html",
     "main.080b9ac1.css.map": "./static/css/main.080b9ac1.css.map",
-    "main.428410ee.js.map": "./static/js/main.428410ee.js.map"
+    "main.6bc7a624.js.map": "./static/js/main.6bc7a624.js.map"
   },
   "entrypoints": [
     "static/css/main.080b9ac1.css",
-    "static/js/main.428410ee.js"
+    "static/js/main.6bc7a624.js"
   ]
 }
