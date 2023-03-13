@@ -15,7 +15,7 @@ import sass from "./icons/sass.png";
 import git from "./icons/git.png";
 import vscode from "./icons/vscode.png";
 import placeholder from "./placeholder.png";
-import calulator from "./projects/calulator.png";
+import calculator from "./projects/calculator.png";
 import crypto from "./projects/crypto.png";
 import form from "./projects/form.png";
 import guessAge from "./projects/guessAge.png";
